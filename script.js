@@ -31,7 +31,7 @@ function checkAndRespond(msg) {
 `;
 
   if (num === randomNumber1to100) {
-    document.body.innerHTML = `<h2>Congrats! You have guessed the number! <br><br> It was ${randomNumber1to100}</h2><button class="play-again" id="play-again">Play Again!<button>`;
+    document.body.innerHTML = `<h2>Congrats! You have guessed the number! <br><br> It was ${randomNumber1to100}</h2><button class="play-again" id="play-again">Play Again!</button>`;
     return;
   }
 
